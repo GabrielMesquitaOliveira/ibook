@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "node-sass": "^9.0.0",
+    "nuxt": "^3.7.3",
+    "sass-loader": "^13.3.2",
+    "scss": "^0.2.4"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "axios": "^1.5.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.67.0"
+  }
+}
